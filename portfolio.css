@@ -485,3 +485,11 @@ body,
 .contact textarea {
     transition: background 0.4s, color 0.4s, border 0.4s;
 }
+
+.portrait-inner img {
+    width: 100%;
+    height: 130%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
